@@ -1,5 +1,5 @@
 ---
-title: 'HTTP Response Codes'
+title: HTTP Response Codes
 
 layout: nil
 ---
