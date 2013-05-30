@@ -6,4 +6,4 @@ type: DELETE
 layout: nil
 ---
 
-Delete _Form_ identified by ***:formid*** and all its associated data.
+Delete *Form* identified by ***:formid*** and all its associated data.

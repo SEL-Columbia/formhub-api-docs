@@ -6,4 +6,4 @@ type: GET
 layout: nil
 ---
 
-Searchable list of all _Teams_ owned by ***:orgname***.
+Searchable list of all *Teams* owned by ***:orgname***.

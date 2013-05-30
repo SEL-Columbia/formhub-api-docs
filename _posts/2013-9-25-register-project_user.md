@@ -6,4 +6,4 @@ type: POST
 layout: nil
 ---
 
-Create a new _Project_ object.
+Create a new *Project* object.

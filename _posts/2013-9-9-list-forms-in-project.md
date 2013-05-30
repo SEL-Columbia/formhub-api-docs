@@ -6,4 +6,4 @@ type: GET
 layout: nil
 ---
 
-List all _Form_s in the _Project_ owned by ***:owner*** (_User_ or _Org_) identified by ***:projectid***.
+List all *Form*s in the *Project* owned by ***:owner*** (*User* or *Org*) identified by ***:projectid***.

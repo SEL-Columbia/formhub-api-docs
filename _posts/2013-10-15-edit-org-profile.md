@@ -6,4 +6,4 @@ type: PUT
 layout: nil
 ---
 
-Change the data of an _Organization_ Profile.
+Change the data of an *Organization* Profile.

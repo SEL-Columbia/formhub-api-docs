@@ -6,4 +6,4 @@ type: POST
 layout: nil
 ---
 
-Register a new _Team_ owned by ***:orgname***.
+Register a new *Team* owned by ***:orgname***.

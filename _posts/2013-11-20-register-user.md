@@ -6,7 +6,7 @@ type: POST
 layout: nil
 ---
 
-Register a new _User_ on Formhub.
+Register a new *User* on Formhub.
 
 ### Request
 

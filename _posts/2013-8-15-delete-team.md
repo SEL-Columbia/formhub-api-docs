@@ -6,4 +6,4 @@ type: DELETE
 layout: nil
 ---
 
-Delete _Team_ owned by _:orgname_ identified by ***:teamid*** and all its associated data.
+Delete *Team* owned by ***:orgname*** identified by ***:teamid*** and all its associated data.

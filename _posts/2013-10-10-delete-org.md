@@ -6,4 +6,4 @@ type: DELETE
 layout: nil
 ---
 
-Delete completely an _Organization_ and all its associated data.
+Delete completely an *Organization* and all its associated data.

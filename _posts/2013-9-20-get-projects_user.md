@@ -6,4 +6,4 @@ type: GET
 layout: nil
 ---
 
-Get the list of _Project_s owned by ***:username***.
+Get the list of *Project*s owned by ***:username***.

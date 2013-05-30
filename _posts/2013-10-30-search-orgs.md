@@ -6,4 +6,4 @@ type: GET
 layout: nil
 ---
 
-Searchable list of all _Organization_.
+Searchable list of all *Organization*.

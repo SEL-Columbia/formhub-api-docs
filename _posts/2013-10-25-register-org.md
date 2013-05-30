@@ -6,4 +6,4 @@ type: POST
 layout: nil
 ---
 
-Create a new _Organization_ object.
+Create a new *Organization* object.

@@ -6,4 +6,4 @@ type: DELETE
 layout: nil
 ---
 
-Delete your own _User_ account and all its associated data
+Delete your own *User* account and all its associated data

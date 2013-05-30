@@ -6,4 +6,4 @@ type: DELETE
 layout: nil
 ---
 
-Delete _Project_ owned by ***:owner*** (_User_ or _Org_) identified by ***:projectid*** and all its associated data.
+Delete *Project* owned by ***:owner*** (*User* or *Org*) identified by ***:projectid*** and all its associated data.

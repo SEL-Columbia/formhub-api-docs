@@ -6,4 +6,4 @@ type: DELETE
 layout: nil
 ---
 
-Remove a _Team_ from the _Project_ owned by ***:owner*** (_User_ or _Org_) identified by ***:projectid***.
+Remove a *Team* from the *Project* owned by ***:owner*** (*User* or *Org*) identified by ***:projectid***.

@@ -6,11 +6,11 @@ type: GET
 layout: nil
 ---
 
-Get a particular _User_'s profile
+Get a particular *User*'s profile
 
 ### Request
 
-* `username`: Username of the _User_ to display the Profile for.
+* `username`: Username of the *User* to display the Profile for.
 
 ### Response
 

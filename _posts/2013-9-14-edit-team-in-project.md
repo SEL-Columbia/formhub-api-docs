@@ -6,4 +6,4 @@ type: PUT
 layout: nil
 ---
 
-Edit a _Team_'s properties (rights) in the _Project_ owned by ***:owner*** (_User_ or _Org_) identified by ***:projectid***.
+Edit a *Team*'s properties (rights) in the *Project* owned by ***:owner*** (*User* or *Org*) identified by ***:projectid***.

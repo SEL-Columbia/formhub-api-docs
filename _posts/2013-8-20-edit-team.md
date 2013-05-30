@@ -6,4 +6,4 @@ type: PUT
 layout: nil
 ---
 
-Edit _Team_ owned by ***:orgname*** identified by ***:teamid***.
+Edit *Team* owned by ***:orgname*** identified by ***:teamid***.

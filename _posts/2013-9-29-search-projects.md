@@ -6,4 +6,4 @@ type: GET
 layout: nil
 ---
 
-Searchable list of all _Project_.
+Searchable list of all *Project*.

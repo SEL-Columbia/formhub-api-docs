@@ -6,4 +6,4 @@ type: GET
 layout: nil
 ---
 
-Get the profile of an _Organization_.
+Get the profile of an *Organization*.
