@@ -1,25 +1,28 @@
 ---
 category: Users
 path: /users/
-title: Register a new User
+title: Register User
 type: POST
 layout: nil
 ---
 
-Register a new *User* on Formhub.
+Register a new *User* in Formhub
 
 ### Request
+
+Required parameters
 
 **Payload**:
 
 ```{
 	"username": "mberg",
-	"first_name": "Matt",
-	"last_name": "Berg",
-	...
+	"name": "Matt Berg",
+	"email": "mberg@formhub.org",
+	"password": "letmein!"
 }```
 
-Mandatory parameters mentioned above. Registeration
+All other parameters in the [User object](#/user-object) can be passed optionally.
+
 
 ### Response
 

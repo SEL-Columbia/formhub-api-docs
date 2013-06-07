@@ -1,7 +1,7 @@
 ---
 category: Users
 path: /users/:username
-title: Get User Profile
+title: Get User Information
 type: GET
 layout: nil
 ---
