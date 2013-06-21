@@ -6,4 +6,20 @@ type: GET
 layout: nil
 ---
 
-Searchable list of all *Organization*.
+List of  *Organization* profiles.
+
+### Response
+
+```Status: 200 OK```
+
+```[{
+    "orgname": "modilabs",
+    "name": "Modi Research Group",
+    ...
+ },{
+    "orgname": "netrix",
+    "name": "Netrix Solutions",
+    ...
+}, ...
+]
+```
