@@ -4,6 +4,7 @@ path: /orgs/
 title: Register new Organization
 type: POST
 layout: nil
+published: true
 ---
 
 Create a new *Organization* object.
@@ -24,7 +25,9 @@ All other parameters in the [Organization object](#/org-object) can be passed op
 
 ### Response
 
-```Status: 201 Created```
+```Status: 201 Created
+   Location: http://api.formhub.org/v1/org/modilabs
+```
 
 ```{
     "orgname": "modilabs",
@@ -36,7 +39,8 @@ All other parameters in the [Organization object](#/org-object) can be passed op
     "twitter": "",
     "description": "",
     "gravatar": "",
-    "require_auth": false
+    "require_auth": false,
+    "url": "http://api.formhub.org/v1/org/modilabs"
 }```
 
 For errors responses, see the [HTTP Response Codes](#/http-status).
