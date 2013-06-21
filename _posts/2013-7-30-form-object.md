@@ -16,8 +16,8 @@ The _Form_ object.
     "json": "{ ... }", 
     "description": "", 
     "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<h:html> ... </h:html>", 
-    "shared": false, 
-    "shared_data": false, 
+    "public": false, 
+    "public_data": false, 
     "downloadable": true, 
     "is_crowd_form": false, 
     "allows_sms": false, 
@@ -44,7 +44,7 @@ The _Form_ object.
 
 #### Form Details
 
-* **shared** - boolean
+* **public** - boolean
 * **has_start_time** - form has a field called start
 * **xlsform** - path to xlsform
 * **json** - json form (json string). Make this into a seperate endpoint
@@ -63,7 +63,7 @@ The _Form_ object.
 * has_geopoints (boolean)
 * last_submission
 * submission_modification
-* shared_data - boolean
+* public_data - boolean
 * license - no license, cc, share-alike
 * SMS
 ** sms_form (change from allows_sms) (boolean) - form is valid sms form
