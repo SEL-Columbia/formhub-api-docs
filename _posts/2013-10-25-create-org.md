@@ -1,7 +1,7 @@
 ---
 category: Organization
 path: /orgs/
-title: Register new Organization
+title: Create new Organization
 type: POST
 layout: nil
 published: true
@@ -25,12 +25,13 @@ All other parameters in the [Organization object](#/org-object) can be passed op
 
 ### Response
 
-```Status: 201 Created
-   Location: http://api.formhub.org/v1/org/modilabs
+```
+Status: 201 Created
+Location: http://api.formhub.org/v1/org/modilabs
 ```
 
 ```{
-    "orgname": "modilabs",
+    "org": "modilabs",
     "email": "",
     "name": "Modi Research Group",
     "city": "",
