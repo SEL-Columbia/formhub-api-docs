@@ -1,12 +1,12 @@
 ---
 category: Forms
-path: /forms/:formid/data/exports/
-title: Get Form Data Exports
+path: /forms/:formid/data
+title: Get Form Data 
 type: GET
 layout: nil
 ---
 
-Return list of already generated exports for this form.
+
 
 ```
 [{
