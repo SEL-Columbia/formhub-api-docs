@@ -3,11 +3,11 @@ category: Organization
 title: Organization Object
 ---
 
-* *Organization* object has all the features of a *User* object, the only difference is instead of a *username* we have *orgname*.
+* *Organization* object has all the features of a *User* object, the only difference is instead of a *username* we have *org*.
 An example object as shown below:
 
 ```{
-    "orgname": "modilabs",
+    "org": "modilabs",
     "email": "modilabs@formhub.org",
     "name": "Modi Research Group",
     "city": "Nairobi",
@@ -23,7 +23,7 @@ An example object as shown below:
     
 Each User has the following core properties:
     
-* `orgname` - unique organization name identifier.
+* `org` - unique organization name identifier.
 * `email` - Organization's email
 * `name` - Name of the organization.
 * `city` - City of organization

@@ -1,6 +1,6 @@
 ---
 category: Organization
-path: /orgs/:orgname
+path: /orgs/:org
 title: Edit an Organization Profile
 type: PUT
 layout: nil
@@ -23,7 +23,7 @@ For example to update the website details of *Organization*
 ```Status: 200 OK```
 
 ```{
-    "orgname": "modilabs",
+    "org": "modilabs",
     "email": "",
     "name": "Modi Research Group",
     "city": "",

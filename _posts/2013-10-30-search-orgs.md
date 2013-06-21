@@ -13,12 +13,12 @@ List of  *Organization* profiles.
 ```Status: 200 OK```
 
 ```[{
-    "orgname": "modilabs",
+    "org": "modilabs",
     "name": "Modi Research Group",
     "url": "http://api.formhub.org/v1/orgs/modilabs"
     ...
  },{
-    "orgname": "netrix",
+    "org": "netrix",
     "name": "Netrix Solutions",
     "url": "http://api.formhub.org/v1/orgs/netrix"
     ...

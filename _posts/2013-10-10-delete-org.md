@@ -1,6 +1,6 @@
 ---
 category: Organization
-path: /orgs/:orgname
+path: /orgs/:org
 title: Delete an Organization
 type: DELETE
 layout: nil

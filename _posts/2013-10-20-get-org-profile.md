@@ -1,6 +1,6 @@
 ---
 category: Organization
-path: /orgs/:orgname
+path: /orgs/:org
 title: Profile of an Organization
 type: GET
 layout: nil
@@ -9,7 +9,7 @@ layout: nil
 Get the profile of an *Organization*.
 
 ```{
-    "orgname": "modilabs",
+    "org": "modilabs",
     "email": "modilabs@formhub.org",
     "name": "Modi Research Group",
     "city": "Nairobi",
@@ -25,7 +25,7 @@ Get the profile of an *Organization*.
     
 Each User has the following core properties:
     
-* `orgname` - unique organization name identifier.
+* `org` - unique organization name identifier.
 * `email` - Organization's email
 * `name` - Name of the organization.
 * `city` - City of organization

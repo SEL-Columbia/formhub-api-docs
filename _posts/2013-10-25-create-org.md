@@ -16,7 +16,7 @@ Required parameters
 **Payload**:
 
 ```{
-	"orgname": "modilabs",
+	"org": "modilabs",
 	"name": "Modi Research Group"
 }```
 
