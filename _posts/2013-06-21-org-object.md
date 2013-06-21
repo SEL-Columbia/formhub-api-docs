@@ -1,9 +1,4 @@
 ---
-layout: default
-published: false
----
-
----
 category: Organization
 title: Organization Object
 ---
