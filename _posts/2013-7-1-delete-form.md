@@ -7,3 +7,8 @@ layout: nil
 ---
 
 Delete *Form* identified by ***:formid*** and all its associated data.
+
+### Response
+
+```Status: 204 No Content```
+Indicates successful delete.
