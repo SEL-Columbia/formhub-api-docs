@@ -32,5 +32,6 @@ For example to update the website details of *Organization*
     "twitter": "",
     "description": "",
     "gravatar": "",
-    "require_auth": false
+    "require_auth": false,
+    "url": "http://api.formhub.org/v1/orgs/modilabs"
 }```

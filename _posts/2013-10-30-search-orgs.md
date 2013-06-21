@@ -1,7 +1,7 @@
 ---
 category: Organization
 path: /orgs/
-title: Search for organizations
+title: List Organizations
 type: GET
 layout: nil
 ---
@@ -15,10 +15,12 @@ List of  *Organization* profiles.
 ```[{
     "orgname": "modilabs",
     "name": "Modi Research Group",
+    "url": "http://api.formhub.org/v1/orgs/modilabs"
     ...
  },{
     "orgname": "netrix",
     "name": "Netrix Solutions",
+    "url": "http://api.formhub.org/v1/orgs/netrix"
     ...
 }, ...
 ]
