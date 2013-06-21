@@ -1,15 +1,24 @@
 ---
 category: Forms
-path: /forms/:formid/data.:format
-title: Data Export
+path: /forms/:formid/data/exports/
+title: Get Form Data Exports
 type: GET
 layout: nil
 ---
 
-Depending on chosen format, get:
-1. **csv**: CSV Export.
-1. **csv.zip**: Zipped CSV Export.
-1. **xls**: Excel Export.
-1. **kml**: Google Earth KML Export.
-1. **zip**: Attachments as ZIP.
-1. **gdocs**: URL to an Exported version in Google Docs.
+Return list of already generated exports for this form.
+
+```
+[{
+  "export_id": "134535",
+  "format": "csv",
+  "date_generated": "2013-06-21T04:46:38.381",
+  "file_url": "https://api.formhub.org/v1/forms/361b8e1d9db84fecb2a37e08c50bdfb7/data/exports/134535.csv" 
+}, {
+  "export_id": "124565",
+  "format": "xls",
+  "date_generated": "2013-06-21T04:46:38.381",
+  "file_url": "https://api.formhub.org/v1/forms/361b8e1d9db84fecb2a37e08c50bdfb7/data/exports/124565.xls" 
+}
+]
+```
