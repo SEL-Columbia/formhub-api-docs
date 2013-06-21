@@ -7,24 +7,21 @@ layout: nil
 The _Form_ object.
 
 ```{
-    "formid": 1, 
+    "id": "361b8e1d9db84fecb2a37e08c50bdfb7", 
+    "url":https://api.formhub.org/v1/forms/361b8e1d9db84fecb2a37e08c50bdfb7",
     "id_string": "exp_two", 
-    "sms_id_string": "exp_two", 
     "title": "Expenses Form 1.0", 
-    "owner": "mberg", 
-    "xls": "mberg/xls/exp_two.xls", 
-    "json": "{ ... }", 
-    "description": "", 
-    "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<h:html> ... </h:html>", 
-    "public": false, 
-    "public_data": false, 
-    "downloadable": true, 
-    "is_crowd_form": false, 
+    "owner": "https://api.formhub.org/v1/users/mberg", 
+    "description": "",
+    "active": true,
+    "form_public": false, 
+    "data_public": false, 
+    "crowd_form": false, 
     "allows_sms": false, 
+    "sms_id_string": "exp_two", 
     "encrypted": false, 
-    "date_created": "2013-06-21T04:46:38.381", 
-    "date_modified": "2013-06-21T04:46:38.381",
-    "uuid": "361b8e1d9db84fecb2a37e08c50bdfb7", 
+    "date_created": "2013-06-21T04:46:38.381Z", 
+    "date_modified": "2013-06-21T04:46:38.381Z",
     "bamboo_dataset": ""
 }
 ```
@@ -38,7 +35,7 @@ The _Form_ object.
 
 * **id_string** - unique name of the form
 * **title** - form title (64 chars)
-* **uuid** - global unique uuid
+* **id** - global unique form uuid
 * **date_created**
 * **date_modified**
 
@@ -46,16 +43,12 @@ The _Form_ object.
 
 * **public** - boolean
 * **has_start_time** - form has a field called start
-* **xlsform** - path to xlsform
-* **json** - json form (json string). Make this into a seperate endpoint
-* **xml** - xform
-* **xform_hash**
 * **crowd_form (is_crowd_form)** - boolean
-* **downloadable (boolean)** - are we using this?
-* **can_be_replaced (boolean)** - has no submissions so safe to replace
+* **active (boolean)** - form is accessible for download in mobile clients
 * **description** - form description
 * **encrypted (boolean)** - submissions are encrypted.
 * **cloned** - path to original form
+
 
 #### Data Details
 
