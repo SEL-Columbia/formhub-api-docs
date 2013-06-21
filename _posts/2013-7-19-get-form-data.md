@@ -13,12 +13,12 @@ Return list of already generated exports for this form.
   "export_id": "134535",
   "format": "csv",
   "date_generated": "2013-06-21T04:46:38.381",
-  "file_url": "https://api.formhub.org/v1/forms/data/exports/134535.csv" 
+  "file_url": "https://api.formhub.org/v1/forms/361b8e1d9db84fecb2a37e08c50bdfb7/data/exports/134535.csv" 
 }, {
   "export_id": "124565",
   "format": "xls",
   "date_generated": "2013-06-21T04:46:38.381",
-  "file_url": "https://api.formhub.org/v1/forms/data/exports/124565.xls" 
+  "file_url": "https://api.formhub.org/v1/forms/361b8e1d9db84fecb2a37e08c50bdfb7/data/exports/124565.xls" 
 }
 ]
 ```
