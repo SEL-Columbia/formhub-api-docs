@@ -1,9 +1,9 @@
 ---
 category: Teams
-path: /teams/:orgname/:teamid
+path: /teams/:org/:teamid
 title: Delete Team
 type: DELETE
 layout: nil
 ---
 
-Delete *Team* owned by ***:orgname*** identified by ***:teamid*** and all its associated data.
+Delete *Team* owned by ***:org*** identified by ***:teamid*** and all its associated data.

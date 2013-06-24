@@ -1,9 +1,9 @@
 ---
 category: Teams
-path: /teams/:orgname/:teamid
+path: /teams/:org/:teamid
 title: Edit Team
 type: PUT
 layout: nil
 ---
 
-Edit *Team* owned by ***:orgname*** identified by ***:teamid***.
+Edit *Team* owned by ***:org*** identified by ***:teamid***.

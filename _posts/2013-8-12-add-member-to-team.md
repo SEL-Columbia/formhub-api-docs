@@ -1,6 +1,6 @@
 ---
 category: Teams
-path: /teams/:orgname/:teamid/members
+path: /teams/:org/:teamid/members
 title: Add member to Team
 type: POST
 layout: nil

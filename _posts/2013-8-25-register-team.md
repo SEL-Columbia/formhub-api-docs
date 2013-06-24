@@ -1,9 +1,9 @@
 ---
 category: Teams
-path: /teams/:orgname
+path: /teams/:org
 title: Register Team
 type: POST
 layout: nil
 ---
 
-Register a new *Team* owned by ***:orgname***.
+Register a new *Team* owned by ***:org***.

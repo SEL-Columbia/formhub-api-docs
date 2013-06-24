@@ -1,6 +1,6 @@
 ---
 category: Teams
-path: /teams/:orgname/:teamid/members/
+path: /teams/:org/:teamid/members/
 title: List members of Team
 type: GET
 layout: nil

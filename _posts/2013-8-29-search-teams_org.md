@@ -1,9 +1,9 @@
 ---
 category: Teams
-path: /teams/:orgname/
+path: /teams/:org/
 title: List Teams for Org
 type: GET
 layout: nil
 ---
 
-Searchable list of all *Teams* owned by ***:orgname***.
+Searchable list of all *Teams* owned by ***:org***.
