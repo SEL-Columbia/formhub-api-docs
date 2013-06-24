@@ -18,7 +18,7 @@ This will simply be an xlsform file upload.
 
 ### Response
 
-```Status: 201 OK
+```Status: 201 Created
 Location: https://api.formhub.org/v1/forms/361b8e1d9db84fecb2a37e08c50bdfb7
 ```
 
